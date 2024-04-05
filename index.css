@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(33, 29, 29);
+}
+
+#div{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: rgb(77, 210, 70);
+    border: 2px solid black;
+}
+
+#div2{
+    padding: 5px 10px 5px 15px;
+    border: 1.5px solid black;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 36%;
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#btn-convert{
+    margin-top: 5px;
+    margin-left: 47%;
+    
+}
+
+#div3{
+    margin-top: 5px;
+    background-color: chartreuse;
+    border: 4px solid;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
