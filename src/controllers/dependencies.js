@@ -1,9 +1,11 @@
 import { Stack } from "../models/Pila.js";
 import { Convertir } from "../models/Convertir.js";
 
-export const createStack = function(){
-    let newStack = new Stack()
-    return newStack
-}
+export const createConverter = function(expresion) {
+    return new Convertir(expresion);
+};
 
-export let conversion = new Convertir()
+export const createStack = function(){
+    return new Stack();
+};
+

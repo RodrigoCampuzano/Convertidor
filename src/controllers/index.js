@@ -1,4 +1,4 @@
-import { conversion } from "./dependencies.js"
+import { createConverter } from "./dependencies.js";
 
 const div = document.createElement("div")
 div.setAttribute("id", "div")
@@ -41,7 +41,8 @@ container.appendChild(div3)
 const convert = document.getElementById("btn-convert");
 convert.addEventListener("click", () => {
     const input = document.getElementById("valor").value;
-    const outputExpresion = document.getElementById("prefija");
-    let salidas = conversion.conversion(input);
-    outputExpresion.innerText = "Expresión prefija: " + salidas[1];
+    const outputExpression = document.getElementById("prefija");
+    const converter = createConverter(input);
+    const result = converter.convertir();
+    outputExpression.innerText = "Expresión prefija: " + result[1];
 });
